@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Task Manager</a>
+        <div class="collapse navbar-collapse">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Tasks</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="jumbotron text-center">
+        <h1 class="display-4">Welcome to Task Manager</h1>
+        <p class="lead">Your tasks, organized and easy to manage.</p>
+      </div>
+      
+      <div class="card" style="width: 18rem;">
+        <img src="task-image.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Feature Name</h5>
+          <p class="card-text">Description of the feature.</p>
+        </div>
+      </div>
+      
+      <div class="card-deck">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Pending Tasks</h5>
+            <p class="card-text">You have 5 pending tasks.</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Completed Tasks</h5>
+            <p class="card-text">You have completed 12 tasks.</p>
+          </div>
+        </div>
+      </div>
+      
+      <form>
+        <div class="form-group">
+          <label for="taskTitle">Task Title</label>
+          <input type="text" class="form-control" id="taskTitle" placeholder="Enter task title">
+        </div>
+        <button type="submit" class="btn btn-primary">Add Task</button>
+      </form>
+      
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Task Title</h5>
+          <p class="card-text">Detailed description of the task.</p>
+          <form>
+            <div class="form-group">
+              <label for="dueDate">Due Date</label>
+              <input type="date" class="form-control" id="dueDate">
+            </div>
+            <button type="submit" class="btn btn-primary">Save Changes</button>
+          </form>
+        </div>
+      </div>
+      
+      <form>
+        <div class="form-group">
+          <label for="taskName">Task Name</label>
+          <input type="text" class="form-control" id="taskName" placeholder="Enter task name">
+        </div>
+        <div class="form-group">
+          <label for="taskDescription">Description</label>
+          <textarea class="form-control" id="taskDescription" rows="3"></textarea>
+        </div>
+        <button type="submit" class="btn btn-success">Create Task</button>
+      </form>
+      
+      <form>
+        <div class="form-group">
+          <label for="username">Username</label>
+          <input type="text" class="form-control" id="username" placeholder="Enter username">
+        </div>
+        <div class="form-group">
+          <label for="email">Email address</label>
+          <input type="email" class="form-control" id="email" placeholder="Enter email">
+        </div>
+        <div class="form-group">
+          <label for="password">Password</label>
+          <input type="password" class="form-control" id="password" placeholder="Password">
+        </div>
+        <button type="submit" class="btn btn-primary">Register</button>
+      </form>
+      
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" class="form-control is-invalid" id="email" placeholder="Enter email">
+        <div class="invalid-feedback">Please provide a valid email.</div>
+      </div>
+      
+      <form>
+        <div class="form-group">
+          <label for="username">Username</label>
+          <input type="text" class="form-control" id="username" placeholder="Enter username">
+        </div>
+        <div class="form-group">
+          <label for="password">Password</label>
+          <input type="password" class="form-control" id="password" placeholder="Password">
+        </div>
+        <button type="submit" class="btn btn-primary">Login</button>
+      </form>
+      
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">Content</div>
+          <div class="col-md-8">Content</div>
+        </div>
+      </div>
+      
+      <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Categories
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <a class="dropdown-item" href="#">Task Type 1</a>
+          <a class="dropdown-item" href="#">Task Type 2</a>
+        </div>
+      </div>
+      
+      <div id="carouselExample" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="..." class="d-block w-100" alt="...">
+          </div>
+        </div>
+      </div>
+      
+      <div id="accordion">
+        <div class="card">
+          <div class="card-header" id="headingOne">
+            <h5 class="mb-0">
+              <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Task Category 1
+              </button>
+            </h5>
+          </div>
+          <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+            <div class="card-body">
+              Content for task category 1.
+            </div>
+          </div>
+        </div>
+      </div>
+      
+</body>
+</html>
